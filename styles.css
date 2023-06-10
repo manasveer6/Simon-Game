@@ -65,6 +65,15 @@ body {
   cursor: pointer;
 }
 
+.start-btn:hover {
+  background-color: #FEF2BF;
+  color: #011F3F;
+}
+
+.start-btn:active {
+  background-color: #928c70;
+}
+
 @media (max-width: 1200px) {
 
   #level-title {
