@@ -90,4 +90,4 @@ $('.btn').on("click", function () {
     checkAnswer(userClickedPattern.length-1);
 })
 
-window.innerWidth < 1200 && (document.getElementByID("level-title").innerHTML = "Press start to play");
+window.innerWidth < 1200 && ($('#level-title').html("Press start to play"));
